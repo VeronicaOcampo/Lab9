@@ -1,3 +1,4 @@
+#Veronica Ocampo
 def encode(password):
     encoded_pass = ''
     for digit in password:
@@ -5,6 +6,7 @@ def encode(password):
         encoded_pass += encoded_digit
     return encoded_pass
 
+#Tonuka Sultan
 def decode(password):
     ps = password
     decoded = ""
