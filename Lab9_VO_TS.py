@@ -5,6 +5,19 @@ def encode(password):
         encoded_pass += encoded_digit
     return encoded_pass
 
+def decode(password):
+    ps = password
+    decoded = ""
+    a = 0
+    for i in range(len(ps)):
+        a = int(ps[i]) + 3
+        decoded += str(a)
+    return decoded
+
+
+print(decode("123456"))
+
+
 def main():
     while True:
         print('Menu\n'
@@ -25,5 +38,5 @@ def main():
             break
 
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+ #   main()
