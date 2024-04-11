@@ -15,7 +15,7 @@ def decode(password):
     return decoded
 
 
-print(decode("123456"))
+
 
 
 def main():
@@ -37,6 +37,5 @@ def main():
         if option == '3':
             break
 
-
-#if __name__ == '__main__':
- #   main()
+if __name__ == '__main__':
+    main()
